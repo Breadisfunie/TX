@@ -110,7 +110,7 @@ margin: 0;
  transition: all 200ms ease-in-out;
  text-decoration: none;
  text-decoration-color: white;
- color: white;
+ color: rgba(255, 255, 255, 0);
 }
 
 .image-select {

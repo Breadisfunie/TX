@@ -21,7 +21,7 @@ document.getElementById("reportButton").onclick = async function(){
     }
 }
 
-//meth
+//Weed cola makes me sleepy
 async function sleep(seconds) {
     return new Promise((resolve) =>  setTimeout(resolve, seconds * 1000));
   }

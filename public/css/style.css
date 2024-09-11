@@ -47,7 +47,8 @@ margin: 0;
 
 .Menu-buttons:hover {
  text-decoration: underline;
- margin-top: 20px
+ margin-top: 15px;
+ transform: rotate(2deg);
 }
 
 .Title {

@@ -3,7 +3,11 @@
   }
   
   ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #4b4b4b;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
   }
   
 
@@ -17,7 +21,7 @@
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #8f8f8f;
   }
 
 .body {

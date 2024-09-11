@@ -260,15 +260,17 @@ margin: 0;
 
 .news-tray {
  display: flex;
- justify-content: center;
+ justify-self: center;
+ justify-items: bottom;
  background-color: rgb(55, 55, 55);    
  border-top-left-radius: 25px;
  border-top-right-radius: 25px;
  border-bottom-left-radius: 25px;
  border-bottom-right-radius: 25px;
  width: 950px;
- height: 550px;
+ max-height: 550px;
  overflow-y: auto;
+ flex-wrap: wrap;
 }
 
 .news-holder {

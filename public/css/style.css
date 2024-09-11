@@ -260,7 +260,7 @@ margin: 0;
 .news-tray {
  display: flex;
  justify-content: center;
- color: rgb(55, 55, 55);    
+ background-color: rgb(55, 55, 55);    
  border-top-left-radius: 25px;
  border-top-right-radius: 25px;
  border-bottom-left-radius: 25px;

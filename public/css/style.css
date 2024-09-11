@@ -256,3 +256,13 @@ margin: 0;
  background-color: rgb(37, 37, 37);
  cursor: pointer;
 }
+
+.news-tray {
+ display: flex;
+ justify-content: center;
+ color: rgb(55, 55, 55);    
+ border-top-left-radius: 25px;
+ border-top-right-radius: 25px;
+ border-bottom-left-radius: 25px;
+ border-bottom-right-radius: 25px;
+}

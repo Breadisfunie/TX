@@ -317,7 +317,8 @@ margin: 0;
  border-bottom-left-radius: 15px;
  border-bottom-right-radius: 15px;
  margin-right: 0;
-
+ margin-left: 10px;
+ margin-top: 10px;
 }
 
 .news-title {

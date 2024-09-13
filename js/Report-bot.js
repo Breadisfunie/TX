@@ -14,6 +14,7 @@ document.getElementById("reportButton").onclick = async function(){
         //Tells the user that the report went though
         document.getElementById("reportButton").textContent = "User reported"
         termcount += 1;
+        console.log(termcount)
         //Deletes the text afterwards
         document.getElementById("reportUsername").value = "";
         document.getElementById("reason").value = "";

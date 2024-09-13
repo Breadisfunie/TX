@@ -1,6 +1,6 @@
 let reportUsername;
 let reason;
-document.cookie("Termcount")
+document.cookie("Termcount");
 let termcount;
 
 document.getElementById("reportButton").onclick = async function(){ 

@@ -1,7 +1,6 @@
 let reportUsername;
 let reason;
-document.cookie = 0;
-let termcount;
+var termcount = 0;
 
 document.getElementById("reportButton").onclick = async function(){ 
     //Sends the report
@@ -15,7 +14,6 @@ document.getElementById("reportButton").onclick = async function(){
         //Tells the user that the report went though
         document.getElementById("reportButton").textContent = "User reported"
         termcount += 1;
-        document.cookie = termcount;
         //Deletes the text afterwards
         document.getElementById("reportUsername").value = "";
         document.getElementById("reason").value = "";

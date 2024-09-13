@@ -343,9 +343,10 @@ margin: 0;
 }
 
 .material-symbols-outlined {
+ color: #e8eaed;
  font-variation-settings:
  'FILL' 0,
  'wght' 400,
  'GRAD' 0,
- 'opsz' 24
+ 'opsz' 40
 }

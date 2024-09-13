@@ -344,9 +344,14 @@ margin: 0;
 
 .material-symbols-outlined {
  color: #e8eaed;
+ position: absolute;
+ top: 0;
+ right: 0;
+ margin-top: 10px;
+ margin-left: 10px;
  font-variation-settings:
  'FILL' 0,
  'wght' 400,
  'GRAD' 0,
- 'opsz' 40
+ 'opsz' 50
 }

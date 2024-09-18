@@ -1,10 +1,12 @@
 let darkmodeactive;
-document.getElementById("darkModeButton").onclick = async function(){
+
+
+document.getElementById("darkModeButtonIndex").onclick = async function(){
     if (darkmodeactive == true)
         {
          //Runs if dark mode it active // makes it light again
-         document.getElementById("darkModeButton").textContent = "dark_mode";
-         document.getElementById("darkModeButton").style.color = "black";
+         document.getElementById("darkModeButtonIndex").textContent = "dark_mode";
+         document.getElementById("darkModeButtonIndex").style.color = "black";
          document.getElementById("body").style.backgroundColor = "white";
          document.getElementById("title").style.color = "black";
          document.getElementById("home-selector-title").style.color = "black";
@@ -31,11 +33,11 @@ document.getElementById("darkModeButton").onclick = async function(){
          document.getElementById("Report-bot-image").src="images/Report-bot-image-light-mode.png"
          document.getElementById("Pred-finder-image").src="images/Pred finder light mode.png"
          document.getElementById("How-to-term-image").src="images/How to report light mode.png"
-         darkmodeactive = false;
-        }  else {
+         darkmodeactive = false; //makes it false lol
+        }  else { // runs if light mode is active// why do i make these comments when no one reads them send me a dm if u read this lol
          //Runs if light mode it active // makes it dark again
-         document.getElementById("darkModeButton").textContent = "light_mode";
-         document.getElementById("darkModeButton").style.color = "white";
+         document.getElementById("darkModeButtonIndex").textContent = "light_mode";
+         document.getElementById("darkModeButtonIndex").style.color = "white";
          document.getElementById("body").style.backgroundColor = "#2d2c2c";
          document.getElementById("title").style.color = "white";
          document.getElementById("home-selector-title").style.color = "white";
@@ -63,5 +65,6 @@ document.getElementById("darkModeButton").onclick = async function(){
          document.getElementById("Pred-finder-image").src="images/Pred finder.png"
          document.getElementById("How-to-term-image").src="images/How to report.png"
          darkmodeactive = true;
-        }
     }
+}
+

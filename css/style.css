@@ -433,3 +433,7 @@ margin: 0;
   justify-content: center;
   flex-flow: column;
 }
+
+.Suporter-pfp {
+ height: 50px;
+}

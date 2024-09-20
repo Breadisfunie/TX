@@ -449,4 +449,14 @@ margin: 0;
  font-weight: 400;
  font-style: normal;
  font-size: 15px;
+ line-height: 50px;
+ margin-left: 5px;
+ width: 38.85px;
+ margin-top: 2.5px;
+ margin-bottom: 2.5px;
+}
+
+.Suporter-holder {
+  display: flex;
+  justify-content: center;
 }

@@ -340,7 +340,6 @@ margin: 0;
  font-size: 17px;
  text-align: center;
  margin-bottom: 1px;
- 
 }
 
 .material-symbols-outlined {
@@ -451,19 +450,39 @@ margin: 0;
 
 .Suporter-username {
  color: white;
- text-align: center;
+ text-align: left;
  font-family: "Roboto", sans-serif;
  font-weight: 400;
  font-style: normal;
  font-size: 15px;
  line-height: 50px;
  margin-left: 5px;
- width: 38.85px;
+ width: 100px;
  margin-top: 2.5px;
  margin-bottom: 2.5px;
 }
 
 .Suporter-holder {
-  display: flex;
-  justify-content: center;
+ display: flex;
+ justify-content: center;
 }
+
+.report-count-text {
+ font-family: "Tiny5", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+ color: white;
+ width: fit-content;
+ right: -400px;
+ position: relative;
+ margin: 0;
+}
+
+.report-count {
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  width: fit-content;
+  position: relative;
+ }

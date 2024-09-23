@@ -195,7 +195,7 @@ margin: 0;
 }
 
 .Report-bot-form-background {
- background-color: rgb(23, 23, 23);
+ background-color: #171717;
  border-top-left-radius: 25px;
  border-top-right-radius: 25px;
  border-bottom-left-radius: 25px;
@@ -262,7 +262,7 @@ margin: 0;
 }
 
 .Report-Button {
- background-color: rgb(46, 46, 46);
+ background-color: #2e2e2e;
  color: white;
  border-style: none;
  border-top-left-radius: 25px;

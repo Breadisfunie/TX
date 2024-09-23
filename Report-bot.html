@@ -17,30 +17,30 @@
      <link rel="icon" href="icons/TX Logo.gif" sizes="64x64" type="image/gif">
 	 <meta name="theme-color" content="#2cf035">
  </head>
-
- <body class="body">
+ 
+ <body id="body" class="body">
   <header class="header">
 	<div class="Center">
-		<div class="Menu-island">
+		<div id="Menu-island" class="Menu-island">
 			<img class="TX-Icon" src="icons/TX Logo.gif">
-			<a href="https://breadisfunie.github.io/TX/" class="Menu-buttons">Home</a>
-			<a href="https://breadisfunie.github.io/TX/Report-bot"class="Menu-buttons">Report bot</a>
-			<a href="https://breadisfunie.github.io/TX/pred-finder" class="Menu-buttons">Pred Finder</a>
-			<a href="https://breadisfunie.github.io/TX/how-to-term" class="Menu-buttons">How to term</a>
-			<a href="https://breadisfunie.github.io/TX/socials" class="Menu-buttons">Socials</a>
-			<a href="https://breadisfunie.github.io/TX/news" class="Menu-buttons">News</a>
-			<a href="https://breadisfunie.github.io/TX/about" class="Menu-buttons">About</a>
+			<a id="Menu-island-button-1" href="https://breadisfunie.github.io/TX/" class="Menu-buttons">Home</a>
+			<a id="Menu-island-button-2" href="https://breadisfunie.github.io/TX/Report-bot"class="Menu-buttons">Report bot</a>
+			<a id="Menu-island-button-3" href="https://breadisfunie.github.io/TX/pred-finder" class="Menu-buttons">Pred Finder</a>
+			<a id="Menu-island-button-4" href="https://breadisfunie.github.io/TX/how-to-term" class="Menu-buttons">How to term</a>
+			<a id="Menu-island-button-5" href="https://breadisfunie.github.io/TX/socials" class="Menu-buttons">Socials</a>
+			<a id="Menu-island-button-6" href="https://breadisfunie.github.io/TX/news" class="Menu-buttons">News</a>
+			<a id="Menu-island-button-7" href="https://breadisfunie.github.io/TX/about" class="Menu-buttons">About</a>
 		</div><br>
-		<button id="darkModeButtonBot" class="material-symbols-outlined">light_mode</button>
+		<button id="darkModeButton" class="material-symbols-outlined">light_mode</button>
 	</div>
-	<h1 class="Title">DSA Report Bot (not done yet)</h1>
+	<h1 id="title" class="Title">DSA Report Bot (not done yet)</h1>
 	</header>
  	<main>
 		<div class="Report-bot-form">
-			<div class="Report-bot-form-background">
+			<div id="report-form-background" class="Report-bot-form-background">
 				<div>
 					<div>
-						<p class="Report-bot-label">Username</p>
+						<p id="report-label-1" class="Report-bot-label">Username</p>
 						<p class="Report-bot-label-disclamer">Do not use the display name.</p>
 					</div>
 					<div class="Center">
@@ -49,7 +49,7 @@
 				</div>
 				<div>
 					<div>
-						<p class="Report-bot-label">Reason</p>
+						<p id="report-label-2" class="Report-bot-label">Reason</p>
 						<p class="Report-bot-label-disclamer">Do not make a short reason why the user should be banned.</p>
 					</div>
 					<div class="Center">
@@ -59,11 +59,12 @@
 				<div class="Center">
 					<button id="reportButton" class="Report-Button">Report</button>
 				</div>
-				<p class="report-count-text">Report counter = <span class="report-count" id="termcountdisplay"></span></p>
+				<p id="termtext" class="report-count-text">Report counter = <span class="report-count" id="termcountdisplay"></span></p>
 			</div>
 		</div>
 	</main>
  </body>
  <div></div>
  <script src="js/Report-bot.js"></script>
+ <script src="js/darkModeButtonReportBot.js"></script>
 </html>

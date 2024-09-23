@@ -1,9 +1,1 @@
-I drank weed cola 😎😎😎.
-
-I need more stuff to add frfr
-
-@_itr won a place on the website lmao
-
-pls help
-
-like send help lol
+Im banned from TGX for the moment so i cant do that many big updates

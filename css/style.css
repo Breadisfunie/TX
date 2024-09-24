@@ -446,6 +446,7 @@ margin: 0;
  border-top-right-radius: 100%;
  border-bottom-left-radius: 100%;
  border-bottom-right-radius: 100%;
+ text-decoration: none;
 }
 
 .Suporter-username {
@@ -460,11 +461,13 @@ margin: 0;
  width: 100px;
  margin-top: 2.5px;
  margin-bottom: 2.5px;
+ text-decoration: none;
 }
 
 .Suporter-holder {
  display: flex;
  justify-content: center;
+ text-decoration: none;
 }
 
 .report-count-text {

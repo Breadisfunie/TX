@@ -26,6 +26,7 @@ document.getElementById("darkModeButton").onclick = async function(){
          document.getElementById("darkModeButton").style.color = "white";
          document.getElementById("body").style.backgroundColor = "#2d2c2c";
          document.getElementById("title").style.color = "white";
+         document.getElementById("sub-title").style.color = "white";
          document.getElementById("Menu-island").style.backgroundColor = "#252525";
          document.getElementById("Menu-island").style.border = "none";
          document.getElementById("Menu-island-button-1").style.color = "white";

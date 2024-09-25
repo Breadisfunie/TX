@@ -288,7 +288,7 @@ margin: 0;
  display: flex;
  justify-self: center;
  justify-items: bottom;
- background-color: rgb(55, 55, 55);    
+ background-color: #373737;    
  border-top-left-radius: 25px;
  border-top-right-radius: 25px;
  border-bottom-left-radius: 25px;
@@ -300,7 +300,7 @@ margin: 0;
 }
 
 .news-holder {
- background-color: rgb(45, 45, 45);
+ background-color: #2d2d2d;
  border-top-left-radius: 25px;
  border-top-right-radius: 25px;
  border-bottom-left-radius: 25px;

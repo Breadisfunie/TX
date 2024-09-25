@@ -27,13 +27,10 @@ document.getElementById("darkModeButton").onclick = async function(){
          document.getElementById("social-text-3").style.color = "black";
          document.getElementById("social-holder-3").style.backgroundColor = "white";
          document.getElementById("social-holder-3").style.border = "1px solid black";
-
          document.getElementById("social-button-1").style.backgroundColor = "white";
          document.getElementById("social-button-1").style.border = "1px solid black";
-
          document.getElementById("social-button-2").style.backgroundColor = "white";
          document.getElementById("social-button-2").style.border = "1px solid black";
-
          document.getElementById("social-button-3").style.backgroundColor = "white";
          document.getElementById("social-button-3").style.border = "1px solid black";
          darkmodeactive = false; //makes it false lol  

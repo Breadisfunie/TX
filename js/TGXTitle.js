@@ -1,12 +1,12 @@
-var rev = "fwd";
+var rev = "forward";
 function titlebar(val){
-    var msg  = "Terminators X";
+    var msg  = "​Terminators X";
     var res = " ";
     var speed = 300;
     var pos = val;
     msg = msg;
-    var le = msg.length;
-    if(rev == "fwd"){
+    var le = msg.length - 1;
+    if(rev == "forward"){
         if(pos < le){
             pos = pos+1;
             scroll = msg.substr(0,pos);
@@ -14,7 +14,7 @@ function titlebar(val){
             timer = window.setTimeout("titlebar("+pos+")",speed);
         }
         else {
-            rev = "bwd";
+            rev = "backward";
             timer = window.setTimeout("titlebar("+pos+")",speed);
         }
     }
@@ -27,7 +27,7 @@ function titlebar(val){
             timer = window.setTimeout("titlebar("+pos+")",speed);
         }
         else {
-            rev = "fwd";
+            rev = "forward";
             timer = window.setTimeout("titlebar("+pos+")",speed);
         }
     }

@@ -52,3 +52,4 @@ document.getElementById("darkModeButton").onclick = async function(){
 
 //how am i supost to add cookies??????
 //wait i think i can add cookies with ANOTHER JS SCRIPT
+//no i can just directly bake it in with the script lol

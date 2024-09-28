@@ -1,10 +1,13 @@
 let reportUsername;
 let reason;
-var termcount = document.cookie;
-if (termcount == 0) {
-    document.getElementById("termcountdisplay").textContent = 0;
-} else {
+termcount = localStorage.getItem('termcount');
+termcount = parseInt(termcount);
+
+if (termcount == null || NaN) {
     document.getElementById("termcountdisplay").textContent = termcount;
+} else {
+    document.getElementById("termcountdisplay").textContent = 0;
+    termcount = 0;
 }
 
 document.getElementById("reportButton").onclick = async function(){ 
@@ -24,8 +27,8 @@ document.getElementById("reportButton").onclick = async function(){
         document.getElementById("reportUsername").value = "";
         document.getElementById("reason").value = "";
         //Sets the report button back lol
-        document.cookie = termcount;
         document.getElementById("termcountdisplay").textContent = termcount;
+        localStorage.setItem("termcount", termcount);
         await sleep(5);
         document.getElementById("reportButton").textContent = "Report"
     }
